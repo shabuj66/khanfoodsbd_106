@@ -9,6 +9,10 @@ h1,p,a{
 img{
    max-width: 100%;
 }
+.container{
+   width: 90%;
+   margin: auto;
+}
 /* header menu css start */
 #header{
 
@@ -62,6 +66,8 @@ img{
 .header_banner {
    display: flex;
    padding-top: 70px;
+   padding-bottom: 70px;
+
 }
 .banner_content {
    width: 45%;
@@ -69,7 +75,7 @@ img{
    padding-top: 60px;
 }
 .banner_content h1 {
-   color: #575757;
+   color: #fff;
    line-height: 1.3em;
    font-size: 35px;
 }
@@ -230,10 +236,8 @@ img{
 #contact_sec{
    display: flex;
    padding: 70px 0;
-   /* background-image: url(../images/shapes/Frame\ 58.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center; */
+   /* background: #fbf1e3;  */
+
   /* background:#d8b00f; */
 }
 .contact_form h1{
@@ -282,6 +286,10 @@ img{
 .contact_form_img {
    width: 40%;
    margin-top: 80px;
+  
+}
+.contact_form_img img {
+   box-shadow: 36px -35px 1px -13px #fe4a2f;
 }
 
 
@@ -318,13 +326,13 @@ img{
 }
 .footer_content{
    text-align: center;
-   background: #0b0e17;
+   background: #212020;
    padding: 30px 0;
 }
 .footer_content h1{
    text-transform: uppercase;
    font-size: 35px;
-   color: #f87e42;
+   color: #fe4a2f;
 }
 .footer_content span{
    text-transform: uppercase;
