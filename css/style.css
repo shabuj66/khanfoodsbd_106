@@ -243,7 +243,7 @@ img{
 }
 .contact_form h1{
    font-size: 35px;
-   color: #121318; 
+   color: #575757;
    text-transform: capitalize; 
    
 }
@@ -311,13 +311,20 @@ img{
    margin: 3%;
    text-align: center;  
 }
-.socail_media_item1 span{
-   font-size: 55px;
+.socail_media_item1 h1{  
+   font-size: 44px;
    font-weight: 600;
    color: #121318;
+ 
+ 
+}
+.socail_media_item1 span{
+   font-size: 20px;
+   color: #fe4a2f;
+  
 }
 .socail_media_item1 p{
-   font-size: 22px;
+   font-size: 18px;
    color: #121318;
 }
 /* footer sec css start  */
