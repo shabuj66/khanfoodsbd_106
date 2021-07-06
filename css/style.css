@@ -3,6 +3,9 @@ body{
    margin: 0;
    font-family:'Times New Roman', Times, serif;
 }
+h1,p,a{
+   font-family: 'Montserrat', sans-serif;
+}
 img{
    max-width: 100%;
 }
@@ -11,9 +14,9 @@ img{
 
 
 }
-.header_menu {
-   display: flex;
-   background: #fbf3f3;
+.header_menu {  
+   display: flex;  
+   background-color: #212020;
    border-bottom: 1px solid #d4cbcb;
 }
 .header_logo{
@@ -41,17 +44,19 @@ img{
 .header_right_menu ul a {
    display: block;
    text-decoration: none;
-   color: #575757;
+   color: #ffffff;
    font-size: 24px;
    line-height: 50px;
+
 }
 
 /* banner css start */
 .header_banner_sec{
-   background-image: url(../images/shapes/7.png);
+   /* background-image: url(../images/shapes/7.png);
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: center;
+   background-position: center; */
+   background-color: #212020;
 
 }
 .header_banner {
@@ -73,9 +78,9 @@ img{
    font-size: 35px;
    
 }
-.banner_content p {
-   color: #828282;
+.banner_content p {  
    font-size: 18px;
+   color: #fff;
    padding-right: 130px;
    padding-bottom: 20px;
 }
@@ -86,8 +91,10 @@ img{
    text-decoration: none;
    text-transform: capitalize;
    padding: 15px 35px;
-   background-image: linear-gradient(#fc9149, #fe4c30);
+   background: linear-gradient(to right, #fe4a2f 0%, #f83600  51%, #fe8c00  100%);
+
    color: #fff;
+   border-radius: 30px;
    
 }
 
@@ -100,6 +107,7 @@ img{
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   
      
 }
 .about_area{
@@ -107,11 +115,12 @@ img{
  
 }
 .about_sec_img {
-   width: 30%;
-   margin-left: 10%;   
+   width: 30%;  
 }
-.about_sec_img{
+.about_sec_img img{
    max-width: 100%;
+   margin-top: 50px;
+   margin-left: 10%;   
 }
 .about_content{
    width: 40%;
@@ -140,8 +149,9 @@ img{
    text-decoration: none;
    text-transform: capitalize;
    padding: 15px 35px;
-   background-image: linear-gradient(#fc9149, #fe4c30);
+   background: linear-gradient(to right, #fe4a2f 0%, #f83600  51%, #fe8c00  100%);
    color: #fff; 
+   border-radius: 30px;
 
 }
 /* recipies sec css start */
@@ -200,8 +210,9 @@ img{
    text-decoration: none;
    text-transform: capitalize;
    padding: 15px 35px;
-   background-image: linear-gradient(#fc9149, #fe4c30);
+   background: linear-gradient(to right, #fe4a2f 0%, #f83600  51%, #fe8c00  100%);
    color: #fff;
+   border-radius: 30px;
    
 }
 
@@ -219,10 +230,11 @@ img{
 #contact_sec{
    display: flex;
    padding: 70px 0;
-   background-image: url(../images/shapes/Frame\ 58.jpg);
+   /* background-image: url(../images/shapes/Frame\ 58.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: center center;
+   background-position: center center; */
+  /* background:#d8b00f; */
 }
 .contact_form h1{
    font-size: 35px;
@@ -251,12 +263,14 @@ img{
    display: block;
    padding: 20px 13px;
    margin-bottom: 30px;
-   background-image: linear-gradient(#fc9149, #fe4c30);
+   background: linear-gradient(to right, #fe4a2f 0%, #f83600  51%, #fe8c00  100%);
    color: #fff;
    border: none;
    cursor: pointer;
+   border-radius: 30px;
    
 }
+
 .contact_form textarea{
    width: 80%;
    display: block;
@@ -265,10 +279,9 @@ img{
 
 }
 
-.contact_form_img{
+.contact_form_img {
    width: 40%;
-   margin-left: 8%;
-   
+   margin-top: 80px;
 }
 
 
@@ -309,14 +322,17 @@ img{
    padding: 30px 0;
 }
 .footer_content h1{
+   text-transform: uppercase;
    font-size: 35px;
    color: #f87e42;
 }
 .footer_content span{
+   text-transform: uppercase;
    font-size: 35px;
    color:#5e5e5e;
 }
 .footer_content p{
-   color: #fff;
    font-size: 18px;
+   color: #fff;
+   
 }
