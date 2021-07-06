@@ -84,11 +84,12 @@ img{
    font-size: 35px;
    
 }
-.banner_content p {  
+.banner_content p {
    font-size: 18px;
    color: #fff;
    padding-right: 130px;
    padding-bottom: 20px;
+   line-height: 1.7rem;
 }
 .banner_content a {
    display: inline-block;
@@ -261,16 +262,15 @@ img{
    padding: 20px 13px;
    margin-bottom: 30px;
 }
-.contact_form input[type=submit] {
-   width: 40%;
+.contact_form a{
+   display: inline-block;
+   font-weight: 600;
    font-size: 18px;
-   display: block;
-   padding: 20px 13px;
-   margin-bottom: 30px;
+   text-decoration: none;
+   text-transform: capitalize;
+   padding: 15px 35px;
    background: linear-gradient(to right, #fe4a2f 0%, #f83600  51%, #fe8c00  100%);
    color: #fff;
-   border: none;
-   cursor: pointer;
    border-radius: 30px;
    
 }
