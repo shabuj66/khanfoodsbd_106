@@ -1,0 +1,235 @@
+body{
+   padding: 0;
+   margin: 0;
+   font-family:'Times New Roman', Times, serif;
+}
+img{
+   max-width: 100%;
+}
+/* header menu css start */
+#header{
+
+
+}
+.header_menu {
+   display: flex;
+   background: #fbf3f3;
+   border-bottom: 1px solid #d4cbcb;
+}
+.header_logo{
+   width: 30%;   
+   
+}
+.header_logo a{
+   text-decoration: none;
+}
+.header_logo a h1 {
+   color: #fe4a2f;
+   padding-left: 50px;
+}
+.header_right_menu{
+   width: 60%;
+}
+.header_right_menu ul {
+   list-style: none;
+   text-align: right;
+}
+.header_right_menu ul li {
+   display: inline-block;
+   padding: 0 20px;
+}
+.header_right_menu ul a {
+   display: block;
+   text-decoration: none;
+   color: #575757;
+   font-size: 24px;
+   line-height: 50px;
+}
+
+/* banner css start */
+.header_banner_sec{
+   background-image: url(../images/shapes/7.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+.header_banner {
+   display: flex;
+   padding-top: 70px;
+}
+.banner_content {
+   width: 45%;
+   margin-left: 50px;
+   padding-top: 60px;
+}
+.banner_content h1 {
+   color: #575757;
+   line-height: 1.3em;
+   font-size: 35px;
+}
+.banner_content h1 span{
+   color:#fe4a2f;
+   font-size: 35px;
+   
+}
+.banner_content p {
+   color: #828282;
+   font-size: 18px;
+   padding-right: 130px;
+   padding-bottom: 20px;
+}
+.banner_content a {
+   display: inline-block;
+   font-weight: 600;
+   font-size: 18px;
+   text-decoration: none;
+   text-transform: capitalize;
+   padding: 15px 35px;
+   background-image: linear-gradient(#fc9149, #fe4c30);
+   color: #fff;
+   border-radius: 30px;
+}
+
+.banner_img{
+   width: 40%;
+}
+/* about sec css start */
+#about_sec{
+   background-image: url(../images/shapes/7.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+     
+}
+.about_area{
+   display: flex;
+ 
+}
+.about_sec_img {
+   width: 30%;
+   margin-left: 10%;   
+}
+.about_sec_img{
+   max-width: 100%;
+}
+.about_content{
+   width: 40%;
+   margin-left: 50px;
+   padding-top: 60px;
+   margin-left: 15%;
+
+}
+.about_content h1 {
+   color: #575757;
+   font-size: 35px;
+   padding-top: 140px;
+}
+.about_content p {
+   color: #828282;
+   font-size: 18px;
+   padding-right: 120px;
+   padding-bottom: 20px;
+   line-height: 1.7rem;
+   text-align: justify;  
+}
+.about_content a{
+   display: inline-block;
+   font-weight: 600;
+   font-size: 18px;
+   text-decoration: none;
+   text-transform: capitalize;
+   padding: 15px 35px;
+   background-image: linear-gradient(#fc9149, #fe4c30);
+   color: #fff;
+   border-radius: 30px;
+
+}
+/* recipies sec css start */
+.recipies_tittle_content {   
+   text-align: center;
+}
+.recipies_tittle_content h1{
+   color: #575757;   
+   font-size: 35px;   
+   
+}
+.recipies_tittle_content p {
+   color: #828282;
+   font-size: 18px;
+   padding-bottom: 20px;
+   line-height: 1.7rem;
+   width: 40%;
+   margin: auto;
+}
+#recipies_sec{
+   padding: 50px 0;
+
+}
+.recipies_items{
+   display: flex;
+}
+.recipies_item1 {
+   width: 30%;
+   margin: 3%;
+   background: #ffffff;
+   padding: 30px 30px;
+   border-radius: 20px;
+   box-shadow: 0px 5px 14px 18px #eee5e5;
+}
+.recipies_item1 img{
+   max-width: 100%;
+   border-radius: 5px;
+
+}
+.recipies_item1 h3{
+   font-size: 30px ;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: #121318;   
+}
+.recipies_item1 p {
+   text-align: justify;
+   font-size: 18px;
+   padding-right: 28px;
+   line-height: 1.7rem;
+}
+
+.recipies_item2{
+   width: 30%;
+   margin: 3%;
+
+ 
+}
+.recipies_item3{
+   width: 30%;
+   margin: 3%;
+}
+
+/* socail media sec css start */
+#socail_media_sec{
+   padding: 70px 0;
+
+}
+.socail_media_items {
+   display: flex;
+   padding: 30px 30px;
+   border-radius: 20px;
+   box-shadow: 0px 5px 14px 18px #eee5e5;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+.socail_media_item1{
+   width: 30%;
+   margin: 3%;
+   text-align: center;  
+}
+.socail_media_item1 span{
+   font-size: 55px;
+   font-weight: 600;
+   color: #121318;
+}
+.socail_media_item1 p{
+   font-size: 22px;
+   color: #121318;
+}
