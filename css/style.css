@@ -141,8 +141,7 @@ img{
    text-transform: capitalize;
    padding: 15px 35px;
    background-image: linear-gradient(#fc9149, #fe4c30);
-   color: #fff;
-   border-radius: 30px;
+   color: #fff; 
 
 }
 /* recipies sec css start */
@@ -189,8 +188,7 @@ img{
    text-transform: capitalize;
    color: #121318;   
 }
-.recipies_item1 p {
-   text-align: justify;
+.recipies_item1 p {  
    font-size: 18px;
    padding-right: 28px;
    line-height: 1.7rem;
@@ -217,6 +215,62 @@ img{
    width: 30%;
    margin: 3%;
 }
+/* contact form css start */
+#contact_sec{
+   display: flex;
+   padding: 70px 0;
+   background-image: url(../images/shapes/Frame\ 58.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.contact_form h1{
+   font-size: 35px;
+   color: #121318; 
+   text-transform: capitalize; 
+   
+}
+.contact_form span{
+   font-size: 35px;
+   color: #fe4a2f;
+   text-transform: capitalize;
+}
+.contact_form{
+   width: 40%;
+   margin-left:10%;
+}
+.contact_form input {
+   width: 80%;
+   display: block;
+   padding: 20px 13px;
+   margin-bottom: 30px;
+}
+.contact_form input[type=submit] {
+   width: 40%;
+   font-size: 18px;
+   display: block;
+   padding: 20px 13px;
+   margin-bottom: 30px;
+   background-image: linear-gradient(#fc9149, #fe4c30);
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   
+}
+.contact_form textarea{
+   width: 80%;
+   display: block;
+   padding: 20px 13px;
+   margin-bottom: 30px;
+
+}
+
+.contact_form_img{
+   width: 40%;
+   margin-left: 8%;
+   
+}
+
 
 /* socail media sec css start */
 #socail_media_sec{
@@ -244,4 +298,25 @@ img{
 .socail_media_item1 p{
    font-size: 22px;
    color: #121318;
+}
+/* footer sec css start  */
+#footer_sec{
+   
+}
+.footer_content{
+   text-align: center;
+   background: #0b0e17;
+   padding: 30px 0;
+}
+.footer_content h1{
+   font-size: 35px;
+   color: #f87e42;
+}
+.footer_content span{
+   font-size: 35px;
+   color:#5e5e5e;
+}
+.footer_content p{
+   color: #fff;
+   font-size: 18px;
 }
